@@ -1,0 +1,13 @@
+[package]
+name = "image_compression"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "image_compression"
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = { version = "1.0.56", features = ["backtrace"] }
+flutter_rust_bridge = "1"
+oxipng = "5.0.1"
